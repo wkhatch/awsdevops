@@ -15,7 +15,7 @@ module.exports = function migrateBaseModels(app, next) {
     console.log('Base models are ${syncStaus}')
     if(actual) return next()
 
-    console.loog('Migrating Base Models...')
+    console.log('Migrating Base Models...')
 
     mysql.autoupdate(models, (err, result) => {
       if(err) {

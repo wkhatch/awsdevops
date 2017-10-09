@@ -19,6 +19,7 @@ app.start = function () {
   })
 }
 
+
 const bootOptions = {
   appRootDir: __dirname,
   bootDirs: [`${__dirname}/boot/migrations`],

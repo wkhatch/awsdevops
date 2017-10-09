@@ -33,7 +33,7 @@
     }
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "mysqlDb",
     "public": false
   },
   "Client": {
